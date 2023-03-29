@@ -9,11 +9,11 @@ console.log(fullPrice);
 
 if (userAge <= 18) {
  console.log((fullPrice / 100) * 80);
- document.getElementById('costo').innerHTML = "Il prezzo del biglietto è di " + ((fullPrice.toFixed(1) / 100) * 80) + "€";
+ document.getElementById('cost').innerHTML = "Il prezzo del biglietto è di " + ((fullPrice.toFixed(1) / 100) * 80) + "€";
 } else if (userAge >= 65) {
  console.log((fullPrice / 100) * 60);
- document.getElementById('costo').innerHTML = "Il prezzo del biglietto è di " + ((fullPrice.toFixed(1) / 100) * 60) + "€";
+ document.getElementById('cost').innerHTML = "Il prezzo del biglietto è di " + ((fullPrice.toFixed(1) / 100) * 60) + "€";
 } else {
 console.log(fullPrice);
- document.getElementById('costo').innerHTML = "Il prezzo del biglietto è di " + (fullPrice.toFixed(1)) + "€";
+ document.getElementById('cost').innerHTML = "Il prezzo del biglietto è di " + (fullPrice.toFixed(1)) + "€";
 }
